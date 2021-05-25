@@ -64,6 +64,8 @@ POST는 서버에게 동일한 요청을 여러번 전송해도 응답은 항상
 
 
 
+
+
 ###### 참고
 
 - https://hongsii.github.io/2017/08/02/what-is-the-difference-get-and-post/
