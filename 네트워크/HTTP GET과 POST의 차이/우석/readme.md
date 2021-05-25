@@ -67,6 +67,10 @@ GET과 POST는 이런 차이들이 있기 때문에 사용하려는 목적에 �
 
 
 
+1
+
+
+
 참고 래퍼런스 
 
 https://github.com/WeareSoft/tech-interview/blob/master/contents/network.md#get-%EB%A9%94%EC%84%9C%EB%93%9C%EC%99%80-post-%EB%A9%94%EC%84%9C%EB%93%9C
