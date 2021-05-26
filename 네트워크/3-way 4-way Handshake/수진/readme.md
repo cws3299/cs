@@ -41,6 +41,7 @@
 >
 > 4-way handshaking은 통신의 종료를 위한 과정으로 TCP간 세션을 종료하기 위해 수행되는 절차
 
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqUXSw%2FbtqDWsFNWJw%2FhVdKIneSYb7UK3wc0pj6Z0%2Fimg.png)
 
 
 [과정]
