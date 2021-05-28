@@ -14,7 +14,7 @@
 - 루트 도메인 바로 아래의 단계를 1단계 도메인 또는 최상위도메인(TLD, Top-Level Domain)이라고 부르며, 그 다음 단계를 2단계 도메인(SLD, Second Level Domain)이라고 함
 - 도메인은 일반최상위도메인(gTLD: Generic Top Level Domain)과 국가최상위도메인(ccTLD: Country Code Top Level Domain)로 구분할 수 있으며 여기서 일반최상위도메인은 다시 스폰서도메인(Sponsored TLD)과 언스폰서도메인(Unsponsored TLD)로 구분된다.
 
-
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcgbedZ%2FbtqDcys1quP%2FLxsyP81Uw67vK6YeKtjNEK%2Fimg.png)
 
 ### DNS 작동원리
 
