@@ -18,6 +18,9 @@
 
 ### DNS 작동원리
 
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fuhbu7%2FbtqDdG49oE7%2F5wIVgki8Uq7JVl9wBVAP10%2Fimg.png)
+
+
 1. 웹 브라우저에 `www.naver.com`을 입력하면 먼저 Local DNS에게 `www.naver.com`이라는 hostname에 대 한 IP주소를 질의하여 Local DNS에 없으면 다른 DNS name 서버 정보를 받음 (Root DNS 정보 전달 받음)
 2. Root DNS 서버에 `www.naver.com` 질의
 3. Root DNS 서버로부터 `com 도메인` 을 관리하는 TLD(Top-Level Domain) 이름 서버 정보 전달 받음
