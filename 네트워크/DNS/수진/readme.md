@@ -33,3 +33,9 @@
 
 
 *Recursive Query: Local DNS 서버가 여러 DNS 서버를 차례대로 (Root DNS 서버 -> com DNS 서버 -> naver.com DNS 서버) 질의해서 답을 찾아가는 과정
+
+
+
+[참고]
+
+- https://pinelover.tistory.com/m/180?category=0
