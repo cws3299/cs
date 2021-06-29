@@ -124,3 +124,68 @@ JOB vs Process
 
 ![20210615_203450](20210615_203450.png)
 
+
+
+### 인터럽트
+
+- 예상하지 못한 , 외부에서 발생한 이벤트
+- 인터럽트의 종류
+  - I/O interrupt 
+  - Clock interrupt
+  - Console interrupt
+  - Program check interrupt
+  - Machine check interrupt
+  - Inter-process interrupt
+  - System call interrupt
+
+
+
+### 인터럽트 처리과정
+
+![20210629_184604](20210629_184604.png)
+
+- Interrupt handling
+- Interrupt service
+
+
+
+![20210629_185132](20210629_185132.png)
+
+
+
+- context saving
+  - 인터럽트 때문에 잠깐 프로세스를 중단했을 때 다시 시작할 때를 위해 그전 상태를 저장
+- interrupt handling
+  - 어디서 인터럽트가 발생했는지
+- interrupt service
+  - 인터럽트를 실행
+  - 해당 인터럽트를 해결하기위한 프로세스가 프로세서에 새롭게 추가
+- 프로세서는 방금 중단한 친구가 아닌 ready 큐의 가장 앞에 들어온 애가 먼저 시행됨
+  - pi가 다시 들어올 수 있지만 다른애가 들어올 수 도 있음
+- 중단된 프로세스가 시작될 때는 자신의 상태를 저장했던 PCB를 가져와서 봄
+
+
+
+### Context Switching (문맥 교환)
+
+- context
+  - 프로세스와 관련된 정보들의 집합
+    - cpu register context => in cpu
+    - Code & data, stack, PCB => in memory
+- context saving
+  - 현재 프로세스의 register context를 저장하는 작업
+- context restoring 
+  - register context를 프로세스로 복구하는 작업
+- context switching 
+  - 실행 중인 프로세스의 context를 저장하고 , 앞으로 실행 할 프로세스의 context를 복구하는 일
+    - 커널의 개입으로 이루어짐
+
+
+
+### Context Switch Overhead
+
+- context switching에 소요되는 비용
+  - os마다 다름
+  - os의 성능에 큰 영향을 줌
+- 불필요한 context switching을 줄여야 함
+  - thread를 활용해서 이를 해결함
